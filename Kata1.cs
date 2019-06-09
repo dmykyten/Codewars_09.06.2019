@@ -6,13 +6,11 @@ using System.Threading.Tasks;
 
 namespace codewars
 {
-    class Program
+    class Kata1
     {
-        static void Main(string[] args)
+        public static int[] Maps(int[] x)
         {
-            var Kata2 = SeriesSum.seriesSum(9);
-            Console.WriteLine(Kata2);
-            Console.ReadKey();
+            return x.Select(xxx => xxx * 2).ToArray(); ;
         }
     }
 }
